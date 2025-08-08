@@ -21,7 +21,7 @@ import {
 import { flowResult } from 'mobx';
 import type { PureIDEStore } from './PureIDEStore.js';
 import { FileEditorState } from './FileEditorState.js';
-import { TabManagerState, TabState } from '@finos/legend-lego/application';
+import { TabManagerState, type TabState } from '@finos/legend-lego/application';
 
 export abstract class PureIDETabState extends TabState {
   readonly ideStore: PureIDEStore;
